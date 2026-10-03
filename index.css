@@ -1,0 +1,68 @@
+body {text-align: center;
+      background: #F5F3EF;
+      font-family: "Yu Gothic", "Hiragino Sans", "Meiryo", sans-serif;
+      font-size: 14px;
+      font-weight: bold;}
+.header h1{color:#6f4d3e;
+           margin-bottom: 0px;
+           font-size: 40px;
+           font-weight: lighter;
+           line-height: 1;}
+.header h2 {color: #808080;
+            margin-top: 0px;
+            font-size: 70px;
+            line-height: 1;}
+.header p {color: #6f4d3e;
+           font-size: 30px;
+           margin-top: 0px;
+           font-weight: lighter;
+           line-height: 1;}
+.about {width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px #D1D5DB;
+        box-sizing: border-box;
+        background-color: beige;
+        margin: 30px auto;
+        padding-bottom: 10px;}
+.about h2 {text-decoration: underline wavy#6f4d3e;
+           }
+.about a{text-decoration: none;
+         color: black;}
+.about p {line-height: 1;
+          text-align: left;
+          padding-left: 100px;}
+.works-list {display: flex;
+             gap: 10px;
+             width: 100%;
+             box-sizing: border-box;
+             flex-wrap: nowrap;}
+.works-item {width: calc((100% - 20px) / 4);
+             box-sizing: border-box;}
+.works-item img {width: 100%;
+                 display: block;
+                 aspect-ratio: 4 / 3;
+                 object-fit: contain;
+                 border-radius: 6px;}
+.works-item h3 {line-height: 1;}
+.works-item p {line-height: 1;}
+.writing a {display: block;
+            width: 600px;
+            margin: 15px auto;
+            padding: 15px;
+            box-sizing: border-box;
+            background-color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            color: black;}
+.writing a:hover {text-decoration: underline wavy;}
+.skills {width: 600px;
+         margin: 60px auto;}
+.skills h3 {text-align: left;
+            margin-bottom: 5px;
+            padding-left: 130px;}
+.skills p {margin-top: 0;}
+.future {position: relative;
+         left: -50px;}
+a {text-decoration: none;
+   color: #6f4d3e;}
+a:hover {text-decoration: underline wavy;}
