@@ -45,21 +45,31 @@ body {text-align: center;
                  border-radius: 6px;}
 .works-item h3 {line-height: 1;}
 .works-item p {line-height: 1;}
-.writing a {display: block;
-            width: 600px;
-            margin: 15px auto;
-            padding: 15px;
-            box-sizing: border-box;
-            background-color: white;
-            border-radius: 8px;
-            text-decoration: none;
-            color: black;}
-.writing a:hover {text-decoration: underline wavy;}
+.writing-card p {margin: 0 0 10px;
+                 font-size: 14px;
+                 text-align: left;}
+.writing-card {width: 500px;
+               margin: 15px auto;
+               padding: 15px;
+               box-sizing: border-box;
+               background-color: white;
+               border-radius: 8px;}
+.writing-card a {display: block;
+                 text-align: left;
+                 text-decoration: none;
+                 color: black;
+                 padding-left: 70px;}
+.writing-carda:hover {text-decoration: underline wavy;}
 .skills {width: 600px;
          margin: 60px auto;}
+.skill-card {width: 500px;
+             margin: 15px auto;
+             padding: 5px;
+             box-sizing: border-box;
+             background-color: white;
+             border-radius: 8px;}
 .skills h3 {text-align: left;
-            margin-bottom: 5px;
-            padding-left: 130px;}
+            margin-bottom: 5px;}
 .skills p {margin-top: 0;}
 .future {position: relative;
          left: -50px;}
